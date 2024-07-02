@@ -8,6 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        light_text: '#111111', // Aquí se utilizan comillas alrededor del valor del color
+        bg_principal: "#0042C2",
+        text_principal:"#0042C2",
+        text_secundary:"#397CFF",
+
+        
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
